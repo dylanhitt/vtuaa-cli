@@ -1,0 +1,9 @@
+secret.json
+token.json
+
+# Typical rust ignore
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb

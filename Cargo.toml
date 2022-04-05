@@ -1,0 +1,25 @@
+[package]
+name = "vtuaa-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper-rustls = "^0.22"
+mime = "^ 0.2.0"
+serde = "^ 1.0"
+serde_json = "^ 1.0"
+serde_derive = "^ 1.0"
+yup-oauth2 = "^ 6.0"
+itertools = "^ 0.10"
+hyper = "^ 0.14"
+url = "= 1.7"
+google-sheets4 = "*"
+tokio = { version = "~1.2", features = [
+    "macros",
+    "io-util",
+    "rt",
+    "rt-multi-thread",
+    "fs",
+] }
